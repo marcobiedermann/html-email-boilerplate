@@ -1,6 +1,3 @@
-https://github.com/leemunroe/responsive-html-email-template
-https://github.com/leemunroe/grunt-email-workflow
-
 ## Requirements
 
 * Node.js
