@@ -38,10 +38,10 @@ module.exports = function(grunt) {
     mailgun: {
       newsLetter: {
         options: {
-          key: 'key-8edcd91e9c74b24b14be44c28bc34dbe',
-          sender: 'marco.biedermann@gmx.de',
+          key: '<API KEY>',
+          sender: '<SENDER EMAIL>',
           recipient: [
-            'marco.biedermann@gmx.de'
+            '<RECIPIENT EMAIL>'
           ],
           subject: 'This is a test email',
           preventThreading: true
