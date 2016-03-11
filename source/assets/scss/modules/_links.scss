@@ -1,0 +1,11 @@
+$link-color: blue;
+
+a {
+  color: $link-color;
+
+  &:focus,
+  &:hover {
+
+  }
+
+}

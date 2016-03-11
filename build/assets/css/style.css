@@ -1,0 +1,85 @@
+body {
+  color: #000;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0; }
+
+p,
+li,
+td {
+  color: #000;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px; }
+
+.site {
+  max-width: 600px;
+  margin: 0 auto; }
+
+.site__header {
+  background-color: #808080; }
+
+.site__main {
+  background-color: #fff; }
+
+.site__footer {
+  background-color: #808080; }
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 37.24px; }
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.92px; }
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29.26px; }
+
+h4 {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.33; }
+
+h5 {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5; }
+
+h6 {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5; }
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle; }
+
+a {
+  color: blue; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  margin: 0;
+  width: 100%; }
+
+td {
+  padding: 0;
+  vertical-align: top; }
+
+/*# sourceMappingURL=style.css.map */
