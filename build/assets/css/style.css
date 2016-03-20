@@ -23,9 +23,11 @@ td {
 .site__main {
   background-color: #fff; }
 
-.site {
+.grid {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 600px;
-  margin: 0 auto; }
+  width: 90%; }
 
 h1 {
   font-family: Helvetica, sans-serif;
