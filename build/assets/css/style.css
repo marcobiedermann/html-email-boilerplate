@@ -14,9 +14,8 @@ td {
   font-size: 16px;
   line-height: 24px; }
 
-.site {
-  max-width: 600px;
-  margin: 0 auto; }
+.site__footer {
+  background-color: #808080; }
 
 .site__header {
   background-color: #808080; }
@@ -24,8 +23,9 @@ td {
 .site__main {
   background-color: #fff; }
 
-.site__footer {
-  background-color: #808080; }
+.site {
+  max-width: 600px;
+  margin: 0 auto; }
 
 h1 {
   font-family: Helvetica, sans-serif;

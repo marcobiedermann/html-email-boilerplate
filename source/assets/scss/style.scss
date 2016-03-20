@@ -1,9 +1,8 @@
-@import 'base';
-
-@import 'layout/site';
+@import 'layout/base';
+@import 'layout/footer';
 @import 'layout/header';
 @import 'layout/main';
-@import 'layout/footer';
+@import 'layout/site';
 
 @import 'modules/headlines';
 @import 'modules/images';
