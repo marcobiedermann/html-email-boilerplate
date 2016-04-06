@@ -100,8 +100,7 @@ module.exports = function(grunt) {
     'assemble',
     'sass',
     'premailer',
-    'htmlmin',
-    'watch'
+    'htmlmin'
   ]);
 
 };
