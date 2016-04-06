@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "5.1"
+  - "4.4"
+  - "0.12"
+script: npm run build
+before_install:
+  - gem install hpricot
+  - gem install premailer
+  - gem install sass
