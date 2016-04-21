@@ -35,6 +35,15 @@ module.exports = function(grunt) {
       }
     },
 
+    imagemin: {
+      files: {
+        expand: true,
+        cwd: 'source/content/images',
+        src: '**/*.{gif,ico,jpg,jpeg,png}',
+        dest: 'build/content/images'
+      }
+    },
+
     mailgun: {
       newsLetter: {
         options: {
@@ -91,6 +100,10 @@ module.exports = function(grunt) {
         files: ['source/templates/**/*.html'],
         tasks: ['assemble']
       },
+      images: {
+        files: ['source/content/images/**/*.{gif,jpg,jpeg,png}'],
+        tasks: ['imagemin']
+      },
       sass: {
         files: ['source/assets/scss/**/*.scss'],
         tasks: ['sass']
@@ -102,12 +115,14 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'assemble',
     'sass',
+    'imagemin',
     'watch'
   ]);
 
   grunt.registerTask('send', [
     'assemble',
     'sass',
+    'imagemin',
     'replace',
     'premailer',
     'htmlmin',
@@ -117,6 +132,7 @@ module.exports = function(grunt) {
   grunt.registerTask('build', [
     'assemble',
     'sass',
+    'imagemin',
     'replace',
     'premailer',
     'htmlmin'
