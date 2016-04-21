@@ -16,6 +16,7 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-mailgun": "^1.0.1",
     "grunt-premailer": "^0.2.13",
+    "grunt-replace": "^1.0.1",
     "jit-grunt": "^0.10.0"
   }
 }

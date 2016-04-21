@@ -59,6 +59,23 @@ module.exports = function(grunt) {
       }
     },
 
+    replace: {
+      options: {
+        patterns: [
+          {
+            match: 'content/images', // replace local content/images with server
+            replacement: 'content/images'
+          }
+        ]
+      },
+      files: {
+        expand: true,
+        cwd: 'build',
+        dest: 'build',
+        src: '**/*.html',
+      }
+    },
+
     sass: {
       files: {
         expand: true,
@@ -91,6 +108,7 @@ module.exports = function(grunt) {
   grunt.registerTask('send', [
     'assemble',
     'sass',
+    'replace',
     'premailer',
     'htmlmin',
     'mailgun'
@@ -99,6 +117,7 @@ module.exports = function(grunt) {
   grunt.registerTask('build', [
     'assemble',
     'sass',
+    'replace',
     'premailer',
     'htmlmin'
   ]);
