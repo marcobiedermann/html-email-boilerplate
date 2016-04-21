@@ -3,42 +3,56 @@ $h1-font-family: $base-font-family;
 $h1-font-size: 28px;
 $h1-font-weight: 700;
 $h1-line-height: 1.33;
+$h1-margin-bottom: 8px;
+$h1-margin-top: 8px;
 
 $h2-font-family-fallback: $base-font-family-fallback;
 $h2-font-family: $base-font-family;
 $h2-font-size: 24px;
 $h2-font-weight: 700;
 $h2-line-height: 1.33;
+$h2-margin-bottom: 8px;
+$h2-margin-top: 8px;
 
 $h3-font-family-fallback: $base-font-family-fallback;
 $h3-font-family: $base-font-family;
 $h3-font-size: 22px;
 $h3-font-weight: 700;
 $h3-line-height: 1.33;
+$h3-margin-bottom: 8px;
+$h3-margin-top: 8px;
 
 $h4-font-family-fallback: $base-font-family-fallback;
 $h4-font-family: $base-font-family;
 $h4-font-size: 20px;
 $h4-font-weight: 700;
 $h4-line-height: 1.33;
+$h4-margin-bottom: 8px;
+$h4-margin-top: 8px;
 
 $h5-font-family-fallback: $base-font-family-fallback;
 $h5-font-family: $base-font-family;
 $h5-font-size: 18px;
 $h5-font-weight: 700;
 $h5-line-height: 1.5;
+$h5-margin-bottom: 8px;
+$h5-margin-top: 8px;
 
 $h6-font-family-fallback: $base-font-family-fallback;
 $h6-font-family: $base-font-family;
 $h6-font-size: 16px;
 $h6-font-weight: 700;
 $h6-line-height: 1.5;
+$h6-margin-bottom: 8px;
+$h6-margin-top: 8px;
 
 h1 {
   font-family: $h1-font-family, $h1-font-family-fallback;
   font-size: $h1-font-size;
   font-weight: $h1-font-weight;
   line-height: $h1-font-size * $h1-line-height;
+  margin-bottom: $h1-margin-bottom;
+  margin-top: $h1-margin-top;
 }
 
 h2 {
@@ -46,6 +60,8 @@ h2 {
   font-size: $h2-font-size;
   font-weight: $h2-font-weight;
   line-height: $h2-font-size * $h2-line-height;
+  margin-bottom: $h2-margin-bottom;
+  margin-top: $h2-margin-top;
 }
 
 h3 {
@@ -53,6 +69,8 @@ h3 {
   font-size: $h3-font-size;
   font-weight: $h3-font-weight;
   line-height: $h3-font-size * $h3-line-height;
+  margin-bottom: $h3-margin-bottom;
+  margin-top: $h3-margin-top;
 }
 
 h4 {
@@ -60,6 +78,8 @@ h4 {
   font-size: $h4-font-size;
   font-weight: $h4-font-weight;
   line-height: $h4-line-height;
+  margin-bottom: $h4-margin-bottom;
+  margin-top: $h4-margin-top;
 }
 
 h5 {
@@ -67,6 +87,8 @@ h5 {
   font-size: $h5-font-size;
   font-weight: $h5-font-weight;
   line-height: $h5-line-height;
+  margin-bottom: $h5-margin-bottom;
+  margin-top: $h5-margin-top;
 }
 
 h6 {
@@ -74,4 +96,6 @@ h6 {
   font-size: $h6-font-size;
   font-weight: $h6-font-weight;
   line-height: $h6-line-height;
+  margin-bottom: $h6-margin-bottom;
+  margin-top: $h6-margin-top;
 }

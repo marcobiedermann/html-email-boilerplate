@@ -1,8 +1,16 @@
 ol,
 ul {
+  margin-bottom: 24px;
+  margin-top: 24px;
+
+  ol,
+  ul {
+    margin-bottom: 8px;
+    margin-top: 0;
+  }
 
   li {
 
   }
-  
+
 }
