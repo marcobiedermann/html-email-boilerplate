@@ -1,9 +1,24 @@
 $grid-max-width: 600px;
 $grid-width: 90%;
+$grid-columns: 12;
 
 .grid {
   margin-left: auto;
   margin-right: auto;
   max-width: $grid-max-width;
   width: $grid-width;
+
+  &__col {
+
+    @media only screen and (max-width: $media-md) {
+      display: block;
+      width: 100% !important;
+    }
+
+    &--4 {
+      width: (100% / $grid-columns * 4);
+    }
+
+  }
+
 }
