@@ -1,0 +1,11 @@
+$anchor-color: blue;
+
+a {
+  color: $anchor-color;
+
+  &:focus,
+  &:hover {
+
+  }
+
+}

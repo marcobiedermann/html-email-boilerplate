@@ -6,9 +6,9 @@
 @import 'layout/main';
 @import 'layout/site';
 
+@import 'modules/anchor';
 @import 'modules/grid';
-@import 'modules/headlines';
-@import 'modules/images';
-@import 'modules/links';
-@import 'modules/lists';
-@import 'modules/tables';
+@import 'modules/headline';
+@import 'modules/image';
+@import 'modules/list';
+@import 'modules/table';
