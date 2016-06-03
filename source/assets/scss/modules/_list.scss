@@ -1,16 +1,33 @@
+$list-margin-bottom: 24px;
+$list-margin-top: 24px;
+
+$list-list-margin-bottom: 8px;
+$list-list-margin-top: 0;
+
+$list-item-color: $base-color;
+$list-item-font-family-fallback: $base-font-family-fallback;
+$list-item-font-family: $base-font-family;
+$list-item-font-size: $base-font-size;
+$list-item-font-weight: $base-font-weight;
+$list-item-line-height: $list-item-font-size * $base-line-height;
+
 ol,
 ul {
-  margin-bottom: 24px;
-  margin-top: 24px;
+  margin-bottom: $list-margin-bottom;
+  margin-top: $list-margin-top;
 
   ol,
   ul {
-    margin-bottom: 8px;
-    margin-top: 0;
+    margin-bottom: $list-list-margin-bottom;
+    margin-top: $list-list-margin-top;
   }
 
-  li {
+}
 
-  }
-
+li {
+  color: $list-item-color;
+  font-family: $list-item-font-family, $list-item-font-family-fallback;
+  font-size: $list-item-font-size;
+  font-weight: $list-item-font-weight;
+  line-height: $list-item-line-height;
 }
