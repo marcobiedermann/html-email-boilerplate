@@ -1,0 +1,7 @@
+:root {
+  --footer-bgcolor: #808080;
+}
+
+.site__footer {
+  background-color: var(--footer-bgcolor);
+}

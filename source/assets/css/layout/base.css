@@ -1,0 +1,18 @@
+:root {
+  --body-bgcolor: var(--base-bgcolor);
+  --body-color: var(--base-color);
+  --body-font-family-fallback: var(--base-font-family-fallback);
+  --body-font-family: var(--base-font-family);
+  --body-font-size: var(--base-font-size);
+  --body-font-weight: var(--base-font-weight);
+  --body-line-height: var(--base-line-height);
+}
+
+body {
+  color: var(--body-color);
+  font-family: var(--body-font-family), var(--body-font-family-fallback);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: calc(var(--body-font-size) * var(--body-line-height));
+  margin: 0;
+}

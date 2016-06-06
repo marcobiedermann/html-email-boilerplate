@@ -1,0 +1,20 @@
+:root {
+  --paragraph-color: var(--base-color);
+  --paragraph-font-family-fallback: var(--base-font-family-fallback);
+  --paragraph-font-family: var(--base-font-family);
+  --paragraph-font-size: var(--base-font-size);
+  --paragraph-font-weight: var(--base-font-weight);
+  --paragraph-line-height: calc(var(--paragraph-font-size) * var(--base-line-height));
+  --paragraph-margin-bottom: 24px;
+  --paragraph-margin-top: 24px;
+}
+
+p {
+  color: var(--paragraph-color);
+  font-family: var(--paragraph-font-family), var(--paragraph-font-family-fallback);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
+  margin-bottom: var(--paragraph-margin-bottom);
+  margin-top: var(--paragraph-margin-top);
+}

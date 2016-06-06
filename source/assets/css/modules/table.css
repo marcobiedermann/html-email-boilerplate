@@ -1,0 +1,27 @@
+:root {
+  --table-cell-color: var(--base-color);
+  --table-cell-font-family-fallback: var(--base-font-family-fallback);
+  --table-cell-font-family: var(--base-font-family);
+  --table-cell-font-size: var(--base-font-size);
+  --table-cell-font-weight: var(--base-font-weight);
+  --table-cell-line-height: calc(var(--table-cell-font-size) * var(--base-line-height));
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 100%;
+}
+
+td {
+  color: var(--table-cell-color);
+  font-family: var(--table-cell-font-family), var(--table-cell-font-family-fallback);
+  font-size: var(--table-cell-font-size);
+  font-weight: var(--table-cell-font-weight);
+  line-height: var(--table-cell-line-height);
+  padding: 0;
+  vertical-align: top;
+}

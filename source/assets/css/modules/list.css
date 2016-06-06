@@ -1,0 +1,36 @@
+:root {
+  --list-margin-bottom: 24px;
+  --list-margin-top: 24px;
+
+  --list-list-margin-bottom: 8px;
+  --list-list-margin-top: 0;
+
+  --list-item-color: var(--base-color);
+  --list-item-font-family-fallback: var(--base-font-family-fallback);
+  --list-item-font-family: var(--base-font-family);
+  --list-item-font-size: var(--base-font-size);
+  --list-item-font-weight: var(--base-font-weight);
+  --list-item-line-height: calc(var(--list-item-font-size) * var(--base-line-height));
+}
+
+ol,
+ul {
+  margin-bottom: var(--list-margin-bottom);
+  margin-top: var(--list-margin-top);
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  margin-bottom: var(--list-list-margin-bottom);
+  margin-top: var(--list-list-margin-top);
+}
+
+li {
+  color: var(--list-item-color);
+  font-family: var(--list-item-font-family), var(--list-item-font-family-fallback);
+  font-size: var(--list-item-font-size);
+  font-weight: var(--list-item-font-weight);
+  line-height: var(--list-item-line-height);
+}

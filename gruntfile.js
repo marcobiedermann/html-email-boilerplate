@@ -59,6 +59,27 @@ module.exports = function(grunt) {
       }
     },
 
+    postcss: {
+      options: {
+        map: {
+          inline: false
+        },
+        processors: [
+          require('postcss-import')(),
+          require('postcss-cssnext')({
+            features: {
+              rem: false
+            },
+          })
+        ]
+      },
+      target: {
+        files: {
+          'build/assets/css/style.css': ['source/assets/css/style.css']
+        }
+      }
+    },
+
     premailer: {
       files: {
         expand: true,
@@ -85,17 +106,11 @@ module.exports = function(grunt) {
       }
     },
 
-    sass: {
-      files: {
-        expand: true,
-        cwd: 'source/assets/scss',
-        dest: 'build/assets/css',
-        src: '**/*.scss',
-        ext: '.css'
-      }
-    },
-
     watch: {
+      css: {
+        files: ['source/assets/css/**/*.css'],
+        tasks: ['postcss']
+      },
       html: {
         files: ['source/templates/**/*.html'],
         tasks: ['assemble']
@@ -103,25 +118,21 @@ module.exports = function(grunt) {
       images: {
         files: ['source/content/images/**/*.{gif,jpg,jpeg,png}'],
         tasks: ['imagemin']
-      },
-      sass: {
-        files: ['source/assets/scss/**/*.scss'],
-        tasks: ['sass']
-      },
+      }
     }
 
   });
 
   grunt.registerTask('default', [
     'assemble',
-    'sass',
+    'postcss',
     'imagemin',
     'watch'
   ]);
 
   grunt.registerTask('send', [
     'assemble',
-    'sass',
+    'postcss',
     'imagemin',
     'replace',
     'premailer',
@@ -131,7 +142,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', [
     'assemble',
-    'sass',
+    'postcss',
     'imagemin',
     'replace',
     'premailer',

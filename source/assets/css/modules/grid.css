@@ -1,0 +1,33 @@
+:root {
+  --grid-width: 90%;
+  --grid-columns: 12;
+}
+
+.grid {
+  width: 576px;
+}
+
+@media only screen and (max-width: 640px) {
+
+  .grid {
+    width: 90% !important;
+  }
+
+}
+
+.grid__col {
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  .grid__col {
+    display: block;
+    width: 100% !important;
+  }
+
+}
+
+.grid__col--4 {
+  width: calc(100% / var(--grid-columns) * 4);
+}

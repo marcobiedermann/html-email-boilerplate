@@ -1,0 +1,12 @@
+:root {
+  --anchor-color: blue;
+}
+
+a {
+  color: var(--anchor-color);
+}
+
+a:focus,
+a:hover {
+
+}

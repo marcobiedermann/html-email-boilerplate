@@ -1,0 +1,7 @@
+:root {
+  --main-bgcolor: #fff;
+}
+
+.site__main {
+  background-color: var(--main-bgcolor);
+}
