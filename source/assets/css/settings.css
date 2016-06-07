@@ -6,9 +6,9 @@
   --base-font-size: 16px;
   --base-font-weight: 400;
   --base-line-height: 1.5;
-
-  --media-xs: 320px;
-  --media-sm: 480px;
-  --media-md: 640px;
-  --media-lg: 960px;
 }
+
+@custom-media --media-xs (max-width: 320px);
+@custom-media --media-sm (max-width: 480px);
+@custom-media --media-md (max-width: 640px);
+@custom-media --media-lg (max-width: 960px);
