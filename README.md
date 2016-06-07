@@ -6,7 +6,6 @@
 * [Node.js](https://nodejs.org/)
 * [Grunt](http://gruntjs.com/) `npm install grunt-cli -g`
 * [Ruby](https://www.ruby-lang.org/)
-* [Sass](http://sass-lang.com/) `gem install sass`
 * [Premailer](http://premailer.dialect.ca/) `gem install premailer`
 * [Hpricot](https://github.com/hpricot/hpricot) `gem install hpricot`
 
