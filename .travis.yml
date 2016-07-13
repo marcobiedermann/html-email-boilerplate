@@ -3,6 +3,7 @@ node_js:
   - "5.1"
 script: npm run build
 before_install:
+  - rvm install ruby --latest
   - gem install hpricot
   - gem install premailer
   - npm install -g grunt-cli
