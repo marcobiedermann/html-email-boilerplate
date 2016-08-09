@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/marcobiedermann/html-email-boilerplate.svg?branch=master)](https://travis-ci.org/marcobiedermann/html-email-boilerplate)
-[![devDependency Status](https://david-dm.org/marcobiedermann/html-email-boilerplate/dev-status.svg)](https://david-dm.org/marcobiedermann/html-email-boilerplate#info=devDependencies)
+[![devDependency Status](https://david-dm.org/marcobiedermann/html-email-boilerplate/dev-status.svg)](https://david-dm.org/marcobiedermann/html-email-boilerplate?type=dev)
 # HTML Email Boilerplace
 
 ## Requirements
