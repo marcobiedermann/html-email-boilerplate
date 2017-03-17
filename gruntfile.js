@@ -8,17 +8,13 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-    assemble: {
-      options: {
-        layout: 'default.html',
-        layoutdir: 'source/templates/layouts',
-        partials: 'source/templates/partials/**/*.html'
-      },
+    ejs: {
       files: {
         expand: true,
         cwd: 'source/templates/mails',
         dest: 'build',
-        src: '**/*.html'
+        src: '**/*.ejs',
+        ext: '.html'
       }
     },
 
@@ -113,7 +109,7 @@ module.exports = function(grunt) {
       },
       html: {
         files: ['source/templates/**/*.html'],
-        tasks: ['assemble']
+        tasks: ['ejs']
       },
       images: {
         files: ['source/content/images/**/*.{gif,jpg,jpeg,png}'],
@@ -124,14 +120,14 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('default', [
-    'assemble',
+    'ejs',
     'postcss',
     'imagemin',
     'watch'
   ]);
 
   grunt.registerTask('send', [
-    'assemble',
+    'ejs',
     'postcss',
     'imagemin',
     'replace',
@@ -141,7 +137,7 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask('build', [
-    'assemble',
+    'ejs',
     'postcss',
     'imagemin',
     'replace',

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-{{> head }}
+<%- include('../partials/layout/head'); %>
 
 <body>
 
@@ -10,7 +10,7 @@
     <tr>
       <td>
 
-        {{> header }}
+        <%- include('../partials/layout/header'); %>
 
         <table class="site__main">
 
@@ -20,7 +20,12 @@
               <table class="grid" align="center">
                 <tr>
                   <td>
-                    {{> body }}
+                    <%- include('../partials/modules/headlines'); %>
+                    <%- include('../partials/modules/text'); %>
+                    <%- include('../partials/modules/image'); %>
+                    <%- include('../partials/modules/list'); %>
+                    <%- include('../partials/modules/table'); %>
+                    <%- include('../partials/modules/grid'); %>
                   </td>
                 </tr>
               </table> <!-- .grid -->
@@ -30,7 +35,7 @@
 
         </table> <!-- .site__main -->
 
-        {{> footer }}
+        <%- include('../partials/layout/footer'); %>
 
       </td>
     </tr>
