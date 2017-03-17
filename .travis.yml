@@ -4,6 +4,6 @@ node_js:
 script: npm run build
 before_install:
   - rvm install ruby --latest
-  - gem install hpricot
+  - gem install nokogiri
   - gem install premailer
   - npm install -g grunt-cli
