@@ -14,7 +14,7 @@
     "grunt-contrib-htmlmin": "^2.0.0",
     "grunt-contrib-imagemin": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-mailgun": "^1.0.1",
+    "grunt-mailgun": "^2.0.0",
     "grunt-postcss": "^0.8.0",
     "grunt-premailer": "^1.0.0",
     "grunt-replace": "^1.0.1",
