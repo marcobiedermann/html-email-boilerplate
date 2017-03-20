@@ -4,6 +4,8 @@
 
 # HTML Email Boilerplace
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/marcobiedermann/html-email-boilerplate.svg)](https://greenkeeper.io/)
+
 ## Requirements
 * [Node.js](https://nodejs.org/)
 * [Grunt](http://gruntjs.com/) `npm install grunt-cli -g`
