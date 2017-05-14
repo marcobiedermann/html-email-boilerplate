@@ -20,6 +20,6 @@
     "grunt-replace": "^1.0.1",
     "jit-grunt": "^0.10.0",
     "postcss-cssnext": "^2.10.0",
-    "postcss-import": "^9.1.0"
+    "postcss-import": "^10.0.0"
   }
 }
