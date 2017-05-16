@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-contrib-htmlmin": "^2.3.0",
+    "grunt-contrib-htmlmin": "^2.4.0",
     "grunt-contrib-imagemin": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-ejs": "^0.3.0",
@@ -19,7 +19,7 @@
     "grunt-premailer": "^1.0.0",
     "grunt-replace": "^1.0.1",
     "jit-grunt": "^0.10.0",
-    "postcss-cssnext": "^2.10.0",
+    "postcss-cssnext": "^2.11.0",
     "postcss-import": "^10.0.0"
   }
 }
