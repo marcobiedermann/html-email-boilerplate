@@ -15,11 +15,11 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-ejs": "^0.3.0",
     "grunt-mailgun": "^2.0.1",
-    "grunt-postcss": "^0.8.0",
+    "grunt-postcss": "^0.9.0",
     "grunt-premailer": "^1.0.0",
     "grunt-replace": "^1.0.1",
     "jit-grunt": "^0.10.0",
     "postcss-cssnext": "^3.0.2",
-    "postcss-import": "^10.0.0"
+    "postcss-import": "^12.0.0"
   }
 }
