@@ -10,8 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-contrib-htmlmin": "^2.4.0",
-    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-htmlmin": "^3.0.0",
+    "grunt-contrib-imagemin": "^3.1.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-ejs": "^0.3.0",
     "grunt-mailgun": "^2.0.1",
