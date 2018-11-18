@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/marcobiedermann/html-email-boilerplate.svg?branch=master)](https://travis-ci.org/marcobiedermann/html-email-boilerplate)
 [![devDependency Status](https://david-dm.org/marcobiedermann/html-email-boilerplate/dev-status.svg)](https://david-dm.org/marcobiedermann/html-email-boilerplate?type=dev)
-[![Known Vulnerabilities](https://snyk.io/test/github/marcobiedermann/html-email-boilerplate/badge.svg)](https://snyk.io/test/github/marcobiedermann/html-email-boilerplate) [![Greenkeeper badge](https://badges.greenkeeper.io/marcobiedermann/html-email-boilerplate.svg)](https://greenkeeper.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/marcobiedermann/html-email-boilerplate/badge.svg)](https://snyk.io/test/github/marcobiedermann/html-email-boilerplate)
+[![Greenkeeper badge](https://badges.greenkeeper.io/marcobiedermann/html-email-boilerplate.svg)](https://greenkeeper.io/)
 
 # HTML Email Boilerplace
 
